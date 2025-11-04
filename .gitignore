@@ -1,8 +1,13 @@
+# Terraform directories and state
 .terraform/
-
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfstate.*
 
-.tfvars
+# Lock and cache files
 .terraform.lock.hcl
+
+# Sensitive or local configs
+*.tfvars
+*.tfvars.json
+
