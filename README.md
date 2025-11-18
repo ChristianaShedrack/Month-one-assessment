@@ -38,14 +38,14 @@ Before deploying this infrastructure, ensure you have:
 ## Project Structure
 ```
 terraform-assessment/
-├── main.tf                      # Main Terraform configuration
-├── variables.tf                 # Variable declarations
-├── outputs.tf                   # Output definitions
-├── terraform.tfvars.example     # Example variable values
+├── main.tf                      
+├── variables.tf                 
+├── outputs.tf                   
+├── terraform.tfvars.example     
 ├── user_data/
-│   ├── web_server_setup.sh     # Apache installation script
-│   └── db_server_setup.sh      # PostgreSQL installation script
-├── evidence/                    # Deployment screenshots
+│   ├── web_server_setup.sh     
+│   └── db_server_setup.sh      
+├── evidence/                   
 │   ├── terraform-plan.png
 │   ├── terraform-apply.png
 │   ├── aws-resources.png
@@ -56,7 +56,7 @@ terraform-assessment/
 │   ├── ssh-web-server-2.png
 │   ├── ssh-db-server.png
 │   └── postgres-connection.png
-└── README.md                    # This file
+└── README.md                    
 ```
 
 ## Deployment Instructions
@@ -281,17 +281,9 @@ Type `yes` when prompted to confirm deletion.
 - [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/)
 - [AWS ALB Documentation](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/)
 
-## Support
 
-For issues or questions:
-1. Check the troubleshooting section above
-2. Review Terraform plan output for errors
-3. Check AWS CloudWatch logs
-4. Consult AWS and Terraform documentation
 
 ## Author
 **Your Name**  
-Junior Cloud Engineer @ TechCorp
+Christiana Shedrack
 
-## License
-This project is created for assessment purposes.
